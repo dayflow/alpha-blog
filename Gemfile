@@ -40,6 +40,9 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+# assert_template has been extracted to a gem
+gem 'rails-controller-testing'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
